@@ -1,0 +1,8 @@
+path: /work/dataset  # dataset root dir
+train: /work/dataset/VR-DRONE-v1.0.0.all/all.txt  # train images (relative to 'path') 118287 images
+val: /work/dataset/VR-DRONE-v1.0.0.test/20221207/test_1class_all.txt  # val images (relative to 'path') 5000 images
+test: /work/dataset/VR-DRONE-v1.0.0.test/20221207/test_1class_all.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# Classes
+names:
+  0: p
