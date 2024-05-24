@@ -1,0 +1,9 @@
+path: /work/dataset/VP-SAR-v1.0.0.all  # dataset root dir
+train: /work/dataset/VP-SAR-v1.0.0.all/train.txt  # train images (relative to 'path') 118287 images
+val: /work/dataset/VP-SAR-v1.0.0.all/valid.txt  # val images (relative to 'path') 5000 images
+test: /work/dataset/VP-SAR-v1.0.0.all/test.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# Classes
+names:
+  0: p
+  1: e
